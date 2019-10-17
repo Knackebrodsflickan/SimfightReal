@@ -8,10 +8,10 @@ namespace SimfightReal
 {
     class hero : Character
     {
-        public hero()
-        {
-            hp = 200;
-        }
-        public void SayHello()
+       
+        
+           public int hp = 20;
+        
+       // public void SayHello()
     }
 }

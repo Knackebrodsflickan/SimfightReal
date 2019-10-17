@@ -6,11 +6,13 @@ using System.Threading.Tasks;
 
 namespace SimfightReal
 {
-    class Enemy : Character
+    class CursedWeapon: weapon
     {
-        public Enemy()
+        // gör alltid min skada
+        public override int Attack()
         {
-            int hp = 20;
+            return minDamage;
         }
+
     }
 }

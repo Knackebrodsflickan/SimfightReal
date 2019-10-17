@@ -6,11 +6,13 @@ using System.Threading.Tasks;
 
 namespace SimfightReal
 {
-    class Enemy : Character
+    class Ogre: karaktär
     {
-        public Enemy()
+        public override void Hurt(int amount)
         {
-            int hp = 20;
+            base.Hurt(amount);
         }
+        public int hp = 20;
+
     }
 }

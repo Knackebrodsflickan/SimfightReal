@@ -10,7 +10,7 @@ namespace SimfightReal
     {
         public FalseBlock()
         {
-            fallThrough = false; 
+          //  fallThrough = false; 
         } 
     }
 }
