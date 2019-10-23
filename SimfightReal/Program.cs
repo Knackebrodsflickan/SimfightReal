@@ -51,7 +51,7 @@ namespace SimfightReal
             b.Attack(a);
             a.Attack(b);
             Console.WriteLine("Character hp  " + CharacterNameFirst + " " + a.hp);
-            Console.WriteLine("Character hp  " + CharacterNameSecond + " " + b.hp);
+            Console.WriteLine("Character hp  " + CharacterNameSecond + " " + b.hp);§
             Console.ReadLine();
 
             if (a.hp < 0)
